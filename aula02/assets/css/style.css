@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightslategray;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter{
+    display: flex;
+  
+}
+
+#curretNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+   
+}
+
+span {
+    font-size: 500px;
+}
